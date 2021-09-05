@@ -47,7 +47,7 @@ function Resume({ tabs }) {
                 </div>
 
                 <div>
-                    <h1>Languages/Technologies</h1>
+                    <h1>Skillset</h1>
                     <div style={{ display: "flex" }}>
                         <div>
                             <h2>Front-End</h2>
