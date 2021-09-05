@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { validateEmail } from '../../utils/helpers'
+import emailjs from "emailjs-com"
 
 function ContactForm() {
     const [errorMessage, setErrorMessage] = useState('');
@@ -34,8 +35,13 @@ function ContactForm() {
         console.log(formState)
     }
 
+    function sendEmail(e) {
+
+        
+    }
+
     return (
-        <section style={{ width: "600px" }}>
+        <section style={{ width: "600px" }} id="textArea">
             <h1 data-testid="h1tag">Contact me</h1>
             <form id="contact-form" onSubmit={handleSubmit} style={{ width: "100%" }}>
                 <div>

@@ -6,7 +6,7 @@ function Nav(props) {
 
     return (
         <nav>
-            <ul className="flex-row">
+            <ul className="flex-row" id="header-tabs">
                 <li className="mx-2"></li>
                 {tabs.map((tab) => (
                     <li

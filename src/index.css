@@ -40,7 +40,7 @@ body {
   color: var(--darker);
   font-family: Arial, Helvetica, sans-serif;
   /* Color palette from coolors.co */
-  background: #92d9db;
+  background: #ABD3DD;
   background-image: url('./assets/clouds1.jpg');
 } 
 
@@ -107,7 +107,7 @@ a:hover {
 
 header {
   margin-top: 20px;
-  background: var(--light);
+  background: transparent;
 }
 
 header a {
@@ -319,7 +319,19 @@ row {
 }
 #header-row{
   align-content: center;
-  padding-left: 0%;
+  float: none;
+  display: block;
+  text-align: left;
 }
+@media screen and (max-width: 478px){
+#textArea{
+width: 200px;
+}
+#header-tabs{
+  padding: none;
+  margin: none;
+}
+}
+
 }
 
