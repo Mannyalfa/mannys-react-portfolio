@@ -4,7 +4,7 @@ import { FaGithub, } from 'react-icons/fa';
 function Project({ title, image, deployedLink, repo }) {
     return (
         <row>
-        
+        }
         <div
             style={{
                 width: "350px",
@@ -19,11 +19,13 @@ function Project({ title, image, deployedLink, repo }) {
                     <a href={repo} className="icon"><FaGithub size= {20} /></a>
                 </a>
             </h3>
+            <a href={deployedLink}>
             <img
                 style={{ maxWidth: "300px", maxHeight: "600px" }}
                 src={require(`../../assets/${image}`).default}
                 alt="budget">
             </img>
+            </a>
 
         </div>
         </row>
