@@ -47,10 +47,10 @@ function Resume({ tabs }) {
                 </div>
 
                 <div>
-                    <h1>Skillset</h1>
+                    <h1 id= "skillset">Skillset</h1>
                     <div style={{ display: "flex" }}>
                         <div>
-                            <h2>Front-End</h2>
+                            <h3>Front-End</h3>
                             <ul>
                                 {frontend.map((skills) => (
                                     <li>{skills}</li>
@@ -58,7 +58,7 @@ function Resume({ tabs }) {
                             </ul>
                         </div>
                         <div>
-                            <h2>Back-End</h2>
+                            <h3>Back-End</h3>
                             <ul>
                                 {backend.map((skills) => (
                                     <li>{skills}</li>
