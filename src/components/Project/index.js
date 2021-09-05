@@ -3,6 +3,8 @@ import { FaGithub, } from 'react-icons/fa';
 
 function Project({ title, image, deployedLink, repo }) {
     return (
+        <row>
+        
         <div
             style={{
                 width: "350px",
@@ -14,7 +16,7 @@ function Project({ title, image, deployedLink, repo }) {
             <h3>
                 <a href={deployedLink}>
                     {title}
-                    <a href={repo} className="icon"><FaGithub size= {30} /></a>
+                    <a href={repo} className="icon"><FaGithub size= {20} /></a>
                 </a>
             </h3>
             <img
@@ -24,6 +26,7 @@ function Project({ title, image, deployedLink, repo }) {
             </img>
 
         </div>
+        </row>
     );
 }
 

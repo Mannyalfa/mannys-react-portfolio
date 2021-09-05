@@ -5,7 +5,7 @@ main {
 }
 :root {
   --primary: #5f627d;
-  --secondary: #EF6F6C;
+  --secondary: #5e6ad8;
   --tertiary: #b12704;
   --light: ;
   --dark: #1b1b1b;
@@ -41,7 +41,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   /* Color palette from coolors.co */
   background: #FCF5C7;
-  background-image: url('./assets/clouds2.jpg'); 
+  background-image: url('./assets/clouds1.jpg');
+} 
+
+  row {
+    margin-top: 40px;
 }
 
 h1,
@@ -97,6 +101,7 @@ a:hover {
 }
 
 header {
+  margin-top: 20px;
   background: var(--light);
 }
 
@@ -301,3 +306,15 @@ a {
 #about-photo {
   max-width: 300px;
 }
+
+/*/* On screens that are 768px or less, set About page overflow  */
+@media screen and (max-width: 768px) {
+row {
+  flex-direction: column;
+}
+#header-row{
+  align-content: center;
+  padding-left: 0%;
+}
+}
+
