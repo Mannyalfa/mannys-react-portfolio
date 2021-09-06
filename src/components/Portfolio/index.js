@@ -10,10 +10,28 @@ function Portfolio() {
             repo: 'https://github.com/Mannyalfa/Startifacts',
         },
         {
+            title: 'Weather Dashboard',
+            image: 'weather-dashboard.png',
+            deployedLink: 'https://mannyalfa.github.io/weather-dashboard/',
+            repo: 'https://github.com/Mannyalfa/weather-dashboard',
+        },
+        {
+            title: 'MVC Tech Blog',
+            image: 'mvc-tech-blog.png',
+            deployedLink: 'https://gentle-bastion-78764.herokuapp.com/',
+            repo: 'https://github.com/Mannyalfa/mvc-challenge-tech-blog',
+        },
+        {
             title: 'NETGET ISP Finder',
             image: 'netget.png',
             deployedLink: 'https://mannyalfa.github.io/netget-isp-finder/',
             repo: 'https://github.com/Mannyalfa/netget-isp-finder',
+        },
+        {
+            title: 'Budget Tracker',
+            image: 'budget-tracker.jpg',
+            deployedLink: 'https://mannys-budget-tracker.herokuapp.com/',
+            repo: 'https://github.com/Mannyalfa/budget-tracker',
         },
         {
             title: 'Work Day Scheduler',
@@ -22,16 +40,16 @@ function Portfolio() {
             repo: 'https://github.com/Mannyalfa/work-day-scheduler',
         },
         {
-            title: 'mvc-challenge-tech-blog',
-            image: 'mvc-tech-blog.png',
-            deployedLink: 'https://stark-journey-61935.herokuapp.com/',
-            repo: 'https://github.com/Mannyalfa/mvc-challenge-tech-blog',
+            title: 'Tic Tac Toe',
+            image: 'tic-tac-toe.png',
+            deployedLink: 'https://mannyalfa.github.io/tic-tac-toe/',
+            repo: 'https://github.com/Mannyalfa/tic-tac-toe',
         },
         {
-            title: 'Weather Dashboard',
-            image: 'weather-dashboard.png',
-            deployedLink: 'https://mannyalfa.github.io/weather-dashboard/',
-            repo: 'https://github.com/Mannyalfa/weather-dashboard',
+            title: 'Javascript Digital Clock',
+            image: 'digital-clock.jpg',
+            deployedLink: 'https://mannyalfa.github.io/simple-digital-clock/',
+            repo: 'https://github.com/Mannyalfa/simple-digital-clock',
         },
         {
             title: 'IOS-style timer',

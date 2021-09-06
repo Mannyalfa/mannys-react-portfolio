@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagramSquare } from 'react-icons/fa';
 import { FaEnvelope } from 'react-icons/fa';
 
 function Footer() {
@@ -12,8 +12,17 @@ function Footer() {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <FaLinkedin size= {40} />
+                        <FaLinkedin size={40} />
                     </a>
+                </li>
+            <li style={{ marginLeft: "15px" }}>
+                <a
+                    href="https://www.instagram.com/hawkchk6/"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <FaInstagramSquare size={40} />
+                </a>
                 </li>
                 <li style={{ marginLeft: "15px" }}>
                     <a
@@ -21,16 +30,18 @@ function Footer() {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <FaGithub size= {40}/>
+                        <FaGithub size={40} />
                     </a>
                 </li>
                 <li style={{ marginLeft: "15px" }}>
                     <a
                         href="mailto:mannyalfa@gmail.com"
                     >
-                        <FaEnvelope size= {40}/>
+                        <FaEnvelope size={40} />
                     </a>
+
                 </li>
+            
             </ul>
         </footer>
     );

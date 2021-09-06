@@ -33,7 +33,7 @@ function Resume({ tabs }) {
                     <img
                         src={require(`../../assets/resume.png`).default}
                         alt="resume"
-                        style={{ width: "800px" }}
+                        style={{ width: "900px" }}
                     />
                     <br />
                     <a
