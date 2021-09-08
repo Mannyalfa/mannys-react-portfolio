@@ -3,11 +3,13 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import ContactForm from "./components/Contact";
 import Header from "./components/Header";
+import Home from "./components/Home";
 import Resume from"./components/Resume";
 import Footer from './components/Footer'
 
 function App() {
   const [tabs] = useState([
+    { name: "home" },
     { name: "about me" },
     { name: "portfolio" },
     { name: "contact" },
@@ -20,6 +22,7 @@ function App() {
     <div>
       <Header currentTab={currentTab} setCurrentTab={setCurrentTab} tabs={tabs} />
       <main>
+      {currentTab.name === "home" && <Home />}
         {currentTab.name === "about me" && <About />}
         {currentTab.name === "portfolio" && <Portfolio />}
         {currentTab.name === "contact" && <ContactForm />}

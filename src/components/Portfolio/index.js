@@ -22,24 +22,6 @@ function Portfolio() {
             repo: 'https://github.com/Mannyalfa/mvc-challenge-tech-blog',
         },
         {
-            title: 'NETGET ISP Finder',
-            image: 'netget.png',
-            deployedLink: 'https://mannyalfa.github.io/netget-isp-finder/',
-            repo: 'https://github.com/Mannyalfa/netget-isp-finder',
-        },
-        {
-            title: 'Budget Tracker',
-            image: 'budget-tracker.jpg',
-            deployedLink: 'https://mannys-budget-tracker.herokuapp.com/',
-            repo: 'https://github.com/Mannyalfa/budget-tracker',
-        },
-        {
-            title: 'Work Day Scheduler',
-            image: 'work-day-scheduler.png',
-            deployedLink: 'https://mannyalfa.github.io/work-day-scheduler/',
-            repo: 'https://github.com/Mannyalfa/work-day-scheduler',
-        },
-        {
             title: 'Tic Tac Toe',
             image: 'tic-tac-toe.png',
             deployedLink: 'https://mannyalfa.github.io/tic-tac-toe/',
@@ -56,6 +38,24 @@ function Portfolio() {
             image: 'timer.png',
             deployedLink: 'https://mannyalfa.github.io/ios-style-timer/',
             repo: 'https://github.com/Mannyalfa/ios-style-timer',
+        },
+        {
+            title: 'NETGET ISP Finder',
+            image: 'netget.png',
+            deployedLink: 'https://mannyalfa.github.io/netget-isp-finder/',
+            repo: 'https://github.com/Mannyalfa/netget-isp-finder',
+        },
+        {
+            title: 'Budget Tracker',
+            image: 'budget-tracker.jpg',
+            deployedLink: 'https://mannys-budget-tracker.herokuapp.com/',
+            repo: 'https://github.com/Mannyalfa/budget-tracker',
+        },
+        {
+            title: 'Work Day Scheduler',
+            image: 'work-day-scheduler.png',
+            deployedLink: 'https://mannyalfa.github.io/work-day-scheduler/',
+            repo: 'https://github.com/Mannyalfa/work-day-scheduler',
         },
     ];
     return (

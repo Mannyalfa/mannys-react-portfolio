@@ -35,11 +35,9 @@ body {
   font-weight: 600;
   line-height: 1.5;
   font-size: 18px;
-  letter-spacing: 0.1em;
-  /* background: var(--dark); */
+  letter-spacing: 0.05em;
   color: var(--darker);
   font-family: Arial, Helvetica, sans-serif;
-  /* Color palette from coolors.co */
   background: #ABD3DD;
   background-image: url('./assets/clouds1.jpg');
 } 
@@ -77,7 +75,6 @@ h1 {
 #skillset {
 text-align: center;
 }
-]
 
 h2 {
   font-size: 1.25rem;
@@ -320,6 +317,46 @@ a {
 #about-photo {
   max-width: 300px;
 }
+
+#tagline {
+  margin-top: 20%;
+margin-left: 12%;
+  margin-bottom: 18%;
+}
+
+
+#fade-in-image {
+  animation: fadeIn 20s;
+  -webkit-animation: fadeIn 20s;
+  -moz-animation: fadeIn 20s;
+  -o-animation: fadeIn 20s;
+  -ms-animation: fadeIn 20s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
 
 /*/* On screens that are 768px or less, set About page overflow  */
 @media screen and (max-width: 768px) {

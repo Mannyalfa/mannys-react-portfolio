@@ -20,7 +20,7 @@ function Project({ title, image, deployedLink, repo }) {
                         <a href={repo} className="icon"><FaGithub size={25
                         } /></a>
                     </h3>
-                    <a href={deployedLink}>
+                    <a href={deployedLink} target="_blank" rel="noreferrer">
                         <img
                             style={{ maxWidth: "300px", maxHeight: "600px" }}
                             src={require(`../../assets/${image}`).default}
