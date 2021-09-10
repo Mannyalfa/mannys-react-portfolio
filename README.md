@@ -102,6 +102,12 @@ After cloning the repository, execute the following in the Command Line:
 
 ![screenshot]()
 
+![screenshot]()
+
+![screenshot]()
+
+![screenshot]()
+
 ## Repository URL
 https://github.com/Mannyalfa/mannys-react-portfolio
 
