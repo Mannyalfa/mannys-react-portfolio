@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/mannys-react-portfolio/static/css/main.c08ff77f.chunk.css",
-    "main.js": "/mannys-react-portfolio/static/js/main.a929951e.chunk.js",
-    "main.js.map": "/mannys-react-portfolio/static/js/main.a929951e.chunk.js.map",
+    "main.css": "/mannys-react-portfolio/static/css/main.bc955d16.chunk.css",
+    "main.js": "/mannys-react-portfolio/static/js/main.6b53fee1.chunk.js",
+    "main.js.map": "/mannys-react-portfolio/static/js/main.6b53fee1.chunk.js.map",
     "runtime-main.js": "/mannys-react-portfolio/static/js/runtime-main.33724739.js",
     "runtime-main.js.map": "/mannys-react-portfolio/static/js/runtime-main.33724739.js.map",
     "static/js/2.43eb912a.chunk.js": "/mannys-react-portfolio/static/js/2.43eb912a.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.f95d189f.chunk.js": "/mannys-react-portfolio/static/js/3.f95d189f.chunk.js",
     "static/js/3.f95d189f.chunk.js.map": "/mannys-react-portfolio/static/js/3.f95d189f.chunk.js.map",
     "index.html": "/mannys-react-portfolio/index.html",
-    "static/css/main.c08ff77f.chunk.css.map": "/mannys-react-portfolio/static/css/main.c08ff77f.chunk.css.map",
+    "static/css/main.bc955d16.chunk.css.map": "/mannys-react-portfolio/static/css/main.bc955d16.chunk.css.map",
     "static/js/2.43eb912a.chunk.js.LICENSE.txt": "/mannys-react-portfolio/static/js/2.43eb912a.chunk.js.LICENSE.txt",
     "static/media/budget-tracker.jpg": "/mannys-react-portfolio/static/media/budget-tracker.bff8cfe7.jpg",
     "static/media/clouds1.jpg": "/mannys-react-portfolio/static/media/clouds1.f07b4557.jpg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.33724739.js",
     "static/js/2.43eb912a.chunk.js",
-    "static/css/main.c08ff77f.chunk.css",
-    "static/js/main.a929951e.chunk.js"
+    "static/css/main.bc955d16.chunk.css",
+    "static/js/main.6b53fee1.chunk.js"
   ]
 }

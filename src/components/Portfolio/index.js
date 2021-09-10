@@ -28,6 +28,12 @@ function Portfolio() {
             repo: 'https://github.com/Mannyalfa/tic-tac-toe',
         },
         {
+            title: 'Budget Tracker',
+            image: 'budget-tracker.jpg',
+            deployedLink: 'https://mannys-budget-tracker.herokuapp.com/',
+            repo: 'https://github.com/Mannyalfa/budget-tracker',
+        },
+        {
             title: 'Javascript Digital Clock',
             image: 'digital-clock.jpg',
             deployedLink: 'https://mannyalfa.github.io/simple-digital-clock/',
@@ -44,12 +50,6 @@ function Portfolio() {
             image: 'netget.png',
             deployedLink: 'https://mannyalfa.github.io/netget-isp-finder/',
             repo: 'https://github.com/Mannyalfa/netget-isp-finder',
-        },
-        {
-            title: 'Budget Tracker',
-            image: 'budget-tracker.jpg',
-            deployedLink: 'https://mannys-budget-tracker.herokuapp.com/',
-            repo: 'https://github.com/Mannyalfa/budget-tracker',
         },
         {
             title: 'Work Day Scheduler',

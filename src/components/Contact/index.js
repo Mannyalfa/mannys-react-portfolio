@@ -1,73 +1,97 @@
-import React, { useState } from 'react'
-import { validateEmail } from '../../utils/helpers'
-import emailjs from "emailjs-com"
-
-function ContactForm() {
-    const [errorMessage, setErrorMessage] = useState('');
-
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-
-    const { name, email, message } = formState;
-
-    function handleChange(e) {
-        if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value);
-            console.log(isValid);
-            if (!isValid) {
-                setErrorMessage('invalid email');
-            } else {
-                setErrorMessage('')
-            }
-        } else {
-            if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required`);
-            } else {
-                setErrorMessage('');
-            }
+import React, { Component } from 'react'
+import * as emailjs from 'emailjs-com'
+// import Layout from '../components/layout'
+import { Button, Form, FormGroup, Label, Input } from 'reactstrap'
+class ContactForm extends Component {
+    state = {
+        name: '',
+        email: '',
+        subject: '',
+        message: '',
+    }
+    handleSubmit(e) {
+        e.preventDefault()
+        const { name, email, subject, message } = this.state
+        let templateParams = {
+            from_name: email,
+            to_name: name,
+            subject: subject,
+            message: message,
         }
-        if (!errorMessage) {
-            setFormState({ ...formState, [e.target.name]: e.target.value })
-        }
+        console.log(name, email, subject, message)
+        emailjs.send(
+            'service_vy00xqm',
+            'template_5vge9ev',
+            templateParams,
+            'user_qEJHGgE97kJUZwpQY5sLd'
+        ).then(response => console.log(response))
+        // this.resetForm()
     }
-
-    function handleSubmit(e) {
-        e.preventDefault();
-        console.log(formState)
+    resetForm() {
+        this.setState({
+            name: '',
+            email: '',
+            subject: '',
+            message: '',
+        })
     }
-
-    function sendEmail(e) {
-
-        
+    handleChange = (param, e) => {
+        this.setState({ [param]: e.target.value })
     }
-
-    return (
-        <section style={{ width: "600px" }} id="textArea">
-            <h1 data-testid="h1tag">Contact me</h1>
-            <form id="contact-form" onSubmit={handleSubmit} style={{ width: "100%" }}>
-                <div>
-                    <label htmlFor="name">Name</label><br />
-                    <input type="text" defaultValue={name} onBlur={handleChange} name="name" style={{ width: "50%" }} />
-                </div>
-                <div>
-                    <label htmlFor="email">Email address</label><br />
-                    <input type="email" defaultValue={email} name="email" onBlur={handleChange} style={{ width: "50%" }} />
-                </div>
-                <div>
-                    <label htmlFor="message">Message</label><br />
-                    <textarea name="message" defaultValue={message} rows="5" onBlur={handleChange} />
-                </div>
-                {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
-                    </div>
-                )}
-                <button data-testid="button" type="submit">Submit</button>
-            </form>
-                <br></br>
-                <br></br>
-                <br></br>
-        </section>
-    )
+    render() {
+        return (
+            <>
+                    <h1 className="p-heading1">Get in Touch</h1>
+                    <Form onSubmit={this.handleSubmit.bind(this)}>
+                        <FormGroup controlId="formBasicEmail">
+                            <Label className="text-muted">Email address</Label>
+                            <Input
+                                type="email"
+                                name="email"
+                                value={this.state.email}
+                                className="text-primary"
+                                onChange={this.handleChange.bind(this, 'email')}
+                                placeholder="Enter email"
+                            />
+                        </FormGroup>
+                        <FormGroup controlId="formBasicName">
+                            <Label className="text-muted">Name</Label>
+                            <Input
+                                type="text"
+                                name="name"
+                                value={this.state.name}
+                                className="text-primary"
+                                onChange={this.handleChange.bind(this, 'name')}
+                                placeholder="Name"
+                            />
+                        </FormGroup>
+                        <FormGroup controlId="formBasicSubject">
+                            <Label className="text-muted">Subject</Label>
+                            <Input
+                                type="text"
+                                name="subject"
+                                className="text-primary"
+                                value={this.state.subject}
+                                onChange={this.handleChange.bind(this, 'subject')}
+                                placeholder="Subject"
+                            />
+                        </FormGroup>
+                        <FormGroup controlId="formBasicMessage">
+                            <Label className="text-muted">Message</Label>
+                            <Input
+                                type="textarea"
+                                name="message"
+                                className="text-primary"
+                                value={this.state.message}
+                                onChange={this.handleChange.bind(this, 'message')}
+                            />
+                        </FormGroup>
+                        <Button variant="primary" type="submit">
+                            Submit
+                        </Button>
+                    </Form>
+            </>
+        )
+    }
 }
-
-export default ContactForm;
+export default ContactForm
