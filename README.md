@@ -18,7 +18,6 @@
 8. [Credits](#credits)
 
 ## Description
-
 A polished professional portfolio for potential employers aand clients. 
 
 USER STORY: 
@@ -82,7 +81,6 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
 ## Languages/Applications
-
 React, Bootstrap, JavaScript, Node.js, Express.js, MongoDB, Email.js 
 
 
@@ -97,16 +95,17 @@ After cloning the repository, execute the following in the Command Line:
 	$ npm start
   
 ## Images:
+![screenshot](https://github.com/Mannyalfa/mannys-react-portfolio/blob/main/src/assets/screenshot-home.jpg)
 
-![screenshot]()
+![screenshot](https://github.com/Mannyalfa/mannys-react-portfolio/blob/main/src/assets/screenshot-about.jpg)
 
-![screenshot]()
+![screenshot](https://github.com/Mannyalfa/mannys-react-portfolio/blob/main/src/assets/screenshot-portfolio.jpg)
 
-![screenshot]()
+![screenshot](https://github.com/Mannyalfa/mannys-react-portfolio/blob/main/src/assets/screenshot-contact.jpg)
 
-![screenshot]()
+![screenshot](https://github.com/Mannyalfa/mannys-react-portfolio/blob/main/src/assets/screenshot-resume.jpg)
 
-![screenshot]()
+![screenshot](https://github.com/Mannyalfa/mannys-react-portfolio/blob/main/src/assets/responsive-pages.jpg)
 
 ## Repository URL
 https://github.com/Mannyalfa/mannys-react-portfolio
@@ -117,8 +116,6 @@ https://mannyalfa.github.io/mannys-react-portfolio/
 
 ## Credits
 Manny Alfaro
-
-UCF-VIRT-BO-FSF-PT-04-2021-U-B
 
 
 ### If you have any questions, please contact me: mannyalfa@gmail.com
