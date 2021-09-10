@@ -25,7 +25,7 @@ class ContactForm extends Component {
             templateParams,
             'user_qEJHGgE97kJUZwpQY5sLd'
         ).then(response => console.log(response))
-        // this.resetForm()
+        this.resetForm()
     }
     resetForm() {
         this.setState({
@@ -41,10 +41,11 @@ class ContactForm extends Component {
     render() {
         return (
             <>
-                    <h1 className="p-heading1">Get in Touch</h1>
-                    <Form onSubmit={this.handleSubmit.bind(this)}>
-                        <FormGroup controlId="formBasicEmail">
-                            <Label className="text-muted">Email address</Label>
+                <h1 className="p-heading1">Get in Touch</h1>
+                <Form onSubmit={this.handleSubmit.bind(this)}>
+                    <FormGroup controlId="formBasicEmail">
+                        <Label className="text-muted">Email address</Label>
+                        <p>
                             <Input
                                 type="email"
                                 name="email"
@@ -53,9 +54,11 @@ class ContactForm extends Component {
                                 onChange={this.handleChange.bind(this, 'email')}
                                 placeholder="Enter email"
                             />
-                        </FormGroup>
-                        <FormGroup controlId="formBasicName">
-                            <Label className="text-muted">Name</Label>
+                        </p>
+                    </FormGroup>
+                    <FormGroup controlId="formBasicName">
+                        <Label className="text-muted">Name</Label>
+                        <p>
                             <Input
                                 type="text"
                                 name="name"
@@ -64,20 +67,11 @@ class ContactForm extends Component {
                                 onChange={this.handleChange.bind(this, 'name')}
                                 placeholder="Name"
                             />
-                        </FormGroup>
-                        <FormGroup controlId="formBasicSubject">
-                            <Label className="text-muted">Subject</Label>
-                            <Input
-                                type="text"
-                                name="subject"
-                                className="text-primary"
-                                value={this.state.subject}
-                                onChange={this.handleChange.bind(this, 'subject')}
-                                placeholder="Subject"
-                            />
-                        </FormGroup>
-                        <FormGroup controlId="formBasicMessage">
-                            <Label className="text-muted">Message</Label>
+                        </p>
+                    </FormGroup>
+                    <FormGroup controlId="formBasicMessage">
+                        <Label className="text-muted">Message</Label>
+                        <p>
                             <Input
                                 type="textarea"
                                 name="message"
@@ -85,11 +79,12 @@ class ContactForm extends Component {
                                 value={this.state.message}
                                 onChange={this.handleChange.bind(this, 'message')}
                             />
-                        </FormGroup>
-                        <Button variant="primary" type="submit">
-                            Submit
-                        </Button>
-                    </Form>
+                        </p>
+                    </FormGroup>
+                    <Button variant="primary" type="submit">
+                        Submit
+                    </Button>
+                </Form>
             </>
         )
     }

@@ -22,7 +22,7 @@ function App() {
     <div>
       <Header currentTab={currentTab} setCurrentTab={setCurrentTab} tabs={tabs} />
       <main>
-      {currentTab.name === "home" && <Home />}
+        {currentTab.name === "home" && <Home />}
         {currentTab.name === "about me" && <About />}
         {currentTab.name === "portfolio" && <Portfolio />}
         {currentTab.name === "contact" && <ContactForm />}
