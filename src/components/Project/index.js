@@ -1,7 +1,7 @@
 import React from "react";
 import { FaGithub, } from 'react-icons/fa';
 
-function Project({ title, image, deployedLink, repo }) {
+function Project({ title, descr, image, deployedLink, repo }) {
     return (
         <wrapper>
             <row>
@@ -13,16 +13,17 @@ function Project({ title, image, deployedLink, repo }) {
                         alignItems: "center",
                     }}
                 >
-                    <h3>
-                        <a href={repo} target="_blank" rel="noreferrer">
+                    <h4>
+                        <a id="title" href={repo} target="_blank" rel="noreferrer">
                             {title}
                         </a>
                         <a href={repo} className="icon"><FaGithub size={25
                         } /></a>
-                    </h3>
-                    <a href={deployedLink} target="_blank" rel="noreferrer">
+                    </h4>
+                    <a id= "descr" href={deployedLink} target="_blank" rel="noreferrer">
+                            {descr}
                         <img
-                            style={{ maxWidth: "300px", maxHeight: "600px" }}
+                            style={{ maxWidth: "350px", maxHeight: "250px" }}
                             src={require(`../../assets/${image}`).default}
                             alt="budget" id="projects">
                         </img>

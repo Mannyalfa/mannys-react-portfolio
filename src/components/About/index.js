@@ -9,7 +9,7 @@ function About() {
                     alt="Manny Alfaro"
                     id="about-photo"
                 />
-                <p style={{ marginLeft: "60px" }}>
+                <p id="narrative" style={{ marginLeft: "60px" }}>
                     As a web developer focused on customer satisfaction, I manage all aspects from concept to requirements definition, design, development, launch, maintenance and user support. I enjoy the client-facing role and working closely with team members to produce high-quality deliverables.
                     <br></br>
                     <br></br>

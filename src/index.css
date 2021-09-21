@@ -312,6 +312,14 @@ a {
   margin-right: -2px;
 }
 
+#title {
+  text-decoration: underline;
+}
+
+#descr {
+  color: black;
+}
+
 .navActive {
   color: var(--secondary);
 }
@@ -364,12 +372,17 @@ margin-left: 12%;
 @media screen and (max-width: 768px) {
 row {
   flex-direction: column;
+  justify-content: space-around !important;
 }
 #header-row{
-  align-content: space-around !important;
+  justify-content: space-around !important;
   float: none;
   display: block;
-  text-align: left;
+  text-align: center;
+}
+#narrative {
+  font-size: 15px;
+  margin-left: 0px !important;
 }
 @media screen and (max-width: 478px){
 #textArea{
