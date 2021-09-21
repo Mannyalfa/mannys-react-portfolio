@@ -83,7 +83,6 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 ## Languages/Applications
 React, Bootstrap, JavaScript, Node.js, Express.js, MongoDB, Email.js 
 
-
 ## License
 MIT [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -95,16 +94,22 @@ After cloning the repository, execute the following in the Command Line:
 	$ npm start
   
 ## Images:
+Landing Page
 ![screenshot](https://github.com/Mannyalfa/mannys-react-portfolio/blob/main/src/assets/screenshot-home.jpg)
 
+About Page
 ![screenshot](https://github.com/Mannyalfa/mannys-react-portfolio/blob/main/src/assets/screenshot-about.jpg)
 
+Portfolio Page (All portfolio items are linked to depolyed and repository pages)
 ![screenshot](https://github.com/Mannyalfa/mannys-react-portfolio/blob/main/src/assets/screenshot-portfolio.jpg)
 
+Contact Page (This page is 'live' via Email.js)
 ![screenshot](https://github.com/Mannyalfa/mannys-react-portfolio/blob/main/src/assets/screenshot-contact.jpg)
 
+Resume Page (with downladable pdf)
 ![screenshot](https://github.com/Mannyalfa/mannys-react-portfolio/blob/main/src/assets/screenshot-resume.jpg)
 
+Responsive page (iPhone 6)
 ![screenshot](https://github.com/Mannyalfa/mannys-react-portfolio/blob/main/src/assets/responsive-pages.jpg)
 
 ## Repository URL
