@@ -318,7 +318,9 @@ a {
 
 #descr {
   color: black;
+  margin-bottom: 15px;
 }
+
 
 .navActive {
   color: var(--secondary);
