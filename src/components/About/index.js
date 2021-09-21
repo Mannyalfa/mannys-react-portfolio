@@ -10,10 +10,10 @@ function About() {
                     id="about-photo"
                 />
                 <p id="narrative" style={{ marginLeft: "60px" }}>
-                    As a web developer focused on customer satisfaction, I manage all aspects from concept to requirements definition, design, development, launch, maintenance and user support. I enjoy the client-facing role and working closely with team members to produce high-quality deliverables.
+                    As a creative and innovative web developer focused on customer satisfaction, I manage all aspects from concept to requirements definition, design, and development to launch, maintenance and user support. I enjoy the client-facing role and working closely with team members to produce high-quality deliverables.
                     <br></br>
                     <br></br>
-                    My philosophy is that introducing fresh perspectives and new techniques allow businesses to evolve and grow. My goal is to remain on the cutting edge of advancements and use them to contribute to your business's success. Let's build your dream and bring your ideas to life!
+                    Do you want to share your vision worldwide and grow your business? I'll use cutting-edge technology and leverage it to your advantage. Let's build your dream and bring your ideas to life!
                 </p>
             </row>
             <row className="my-5" style={{ display: "flex", alignItems: "center", justifyContent: "flex-end" }}>

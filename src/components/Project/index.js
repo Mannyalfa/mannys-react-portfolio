@@ -25,7 +25,7 @@ function Project({ title, descr, image, deployedLink, repo }) {
                         <img
                             style={{ maxWidth: "350px", maxHeight: "250px" }}
                             src={require(`../../assets/${image}`).default}
-                            alt="budget" id="projects">
+                            alt="project image" id="projects">
                         </img>
                     </a>
 
