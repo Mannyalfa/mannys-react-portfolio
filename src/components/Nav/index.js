@@ -1,11 +1,13 @@
 import React from "react";
+ import { Navbar, Container, Modal, Tab } from 'react-bootstrap';
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav(props) {
     const { tabs = [], setCurrentTab, currentTab } = props;
 
     return (
-        <nav>
+        <Navbar>
+            <Container fluid>
             <ul className="flex-row" id="header-tabs">
                 <li className="mx-2"></li>
                 {tabs.map((tab) => (
@@ -23,9 +25,11 @@ function Nav(props) {
                     </li>
                 ))}
             </ul>
-        </nav>
+            </Container>
+        </Navbar>
     );
 }
 
 export default Nav;
+
 

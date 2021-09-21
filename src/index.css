@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 main {
   margin: 0 auto;
   max-width: 90%;
@@ -212,10 +213,10 @@ textarea {
   margin-left: var(--spacing-one);
 }
 
-.mx-2 {
+/* .mx-2 { 
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
-}
+ }*/
 
 .my-1 {
   margin-top: var(--spacing-one);
@@ -365,7 +366,7 @@ row {
   flex-direction: column;
 }
 #header-row{
-  align-content: center;
+  align-content: space-around !important;
   float: none;
   display: block;
   text-align: left;

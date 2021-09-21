@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../Nav";
+import Navigation from "../Nav";
 
 function Header(props) {
     return (
@@ -9,7 +9,7 @@ function Header(props) {
                 alt="Manny Alfaro"
                 />
             </h2>
-            <Nav
+            <Navigation
                 tabs={props.tabs}
                 setCurrentTab={props.setCurrentTab}
                 currentTab={props.currentTab}
