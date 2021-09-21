@@ -11,16 +11,14 @@
 
 5. [Images](#images)
 
-6. [Walkthrough](#walkthrough)
+6. [Repository URL](#repository-url)
 
-7. [Repository URL](#repository-url)
+7. [Deployed URL](#deployed-url)
 
-8. [Deployed URL](#deployed-url)
-
-9. [Credits](#credits)
+8. [Credits](#credits)
 
 ## Description
-A polished professional portfolio for potential employers aand clients. 
+A polished professional portfolio for potential employers and clients. 
 
 USER STORY: 
 
@@ -108,9 +106,6 @@ After cloning the repository, execute the following in the Command Line:
 ![screenshot](https://github.com/Mannyalfa/mannys-react-portfolio/blob/main/src/assets/screenshot-resume.jpg)
 
 ![screenshot](https://github.com/Mannyalfa/mannys-react-portfolio/blob/main/src/assets/responsive-pages.jpg)
-
-## Walkthrough
-https://drive.google.com/file/d/1m2I0Mqh6SMYZdVMA-cnFd8fwriu0uK6V/view?usp=sharing
 
 ## Repository URL
 https://github.com/Mannyalfa/mannys-react-portfolio
