@@ -5,7 +5,7 @@ function Portfolio() {
     const projectItems = [
         {
             title: 'Startifacts',
-            descr: 'Search for sci-fi, anime and fantasy memorabila using MySQL',
+            descr: 'Search for sci-fi, anime and fantasy memorabilia using MySQL',
             image: 'startifacts.png',
             deployedLink: 'https://startifacts-online.herokuapp.com/index',
             repo: 'https://github.com/Mannyalfa/Startifacts',
