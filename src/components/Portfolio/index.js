@@ -4,6 +4,13 @@ import Project from '../Project';
 function Portfolio() {
     const projectItems = [
         {
+            title: 'Castle, Cottage or Cave',
+            descr: 'A MERN Stack Search Application using a real estate API ',
+            image: 'ccc-screenshot.jpg',
+            deployedLink: 'https://damp-inlet-70422.herokuapp.com/',
+            repo: 'https://github.com/Mannyalfa/castle-cottage-or-cave',
+        },
+        {
             title: 'Startifacts',
             descr: 'Search for sci-fi, anime and fantasy memorabilia using MySQL',
             image: 'startifacts.png',
@@ -59,13 +66,7 @@ function Portfolio() {
             deployedLink: 'https://mannyalfa.github.io/netget-isp-finder/',
             repo: 'https://github.com/Mannyalfa/netget-isp-finder',
         },
-        {
-            title: 'Work Day Scheduler',
-            descr: 'A saved daily task list using a time-update API ',
-            image: 'work-day-scheduler.png',
-            deployedLink: 'https://mannyalfa.github.io/work-day-scheduler/',
-            repo: 'https://github.com/Mannyalfa/work-day-scheduler',
-        },
+        
     ];
     return (
         <section

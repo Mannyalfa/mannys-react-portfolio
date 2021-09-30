@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/mannys-react-portfolio/static/css/main.39e7c8fe.chunk.css",
-    "main.js": "/mannys-react-portfolio/static/js/main.7337b21b.chunk.js",
-    "main.js.map": "/mannys-react-portfolio/static/js/main.7337b21b.chunk.js.map",
-    "runtime-main.js": "/mannys-react-portfolio/static/js/runtime-main.6e9e7701.js",
-    "runtime-main.js.map": "/mannys-react-portfolio/static/js/runtime-main.6e9e7701.js.map",
-    "static/js/2.f21eb31a.chunk.js": "/mannys-react-portfolio/static/js/2.f21eb31a.chunk.js",
-    "static/js/2.f21eb31a.chunk.js.map": "/mannys-react-portfolio/static/js/2.f21eb31a.chunk.js.map",
-    "static/js/3.f7a0d5d3.chunk.js": "/mannys-react-portfolio/static/js/3.f7a0d5d3.chunk.js",
-    "static/js/3.f7a0d5d3.chunk.js.map": "/mannys-react-portfolio/static/js/3.f7a0d5d3.chunk.js.map",
+    "main.js": "/mannys-react-portfolio/static/js/main.ce8ebfb0.chunk.js",
+    "main.js.map": "/mannys-react-portfolio/static/js/main.ce8ebfb0.chunk.js.map",
+    "runtime-main.js": "/mannys-react-portfolio/static/js/runtime-main.822cef8b.js",
+    "runtime-main.js.map": "/mannys-react-portfolio/static/js/runtime-main.822cef8b.js.map",
+    "static/js/2.abecea52.chunk.js": "/mannys-react-portfolio/static/js/2.abecea52.chunk.js",
+    "static/js/2.abecea52.chunk.js.map": "/mannys-react-portfolio/static/js/2.abecea52.chunk.js.map",
+    "static/js/3.130552ad.chunk.js": "/mannys-react-portfolio/static/js/3.130552ad.chunk.js",
+    "static/js/3.130552ad.chunk.js.map": "/mannys-react-portfolio/static/js/3.130552ad.chunk.js.map",
     "index.html": "/mannys-react-portfolio/index.html",
     "static/css/main.39e7c8fe.chunk.css.map": "/mannys-react-portfolio/static/css/main.39e7c8fe.chunk.css.map",
-    "static/js/2.f21eb31a.chunk.js.LICENSE.txt": "/mannys-react-portfolio/static/js/2.f21eb31a.chunk.js.LICENSE.txt",
+    "static/js/2.abecea52.chunk.js.LICENSE.txt": "/mannys-react-portfolio/static/js/2.abecea52.chunk.js.LICENSE.txt",
     "static/media/budget-tracker.jpg": "/mannys-react-portfolio/static/media/budget-tracker.bff8cfe7.jpg",
     "static/media/clouds1.jpg": "/mannys-react-portfolio/static/media/clouds1.f07b4557.jpg",
     "static/media/digital-clock.jpg": "/mannys-react-portfolio/static/media/digital-clock.971faf4a.jpg",
     "static/media/formal-profile.png": "/mannys-react-portfolio/static/media/formal-profile.e048b248.png",
     "static/media/mvc-tech-blog.png": "/mannys-react-portfolio/static/media/mvc-tech-blog.8bd119d4.png",
     "static/media/netget.png": "/mannys-react-portfolio/static/media/netget.9afc4176.png",
+    "static/media/night-sky.jpg": "/mannys-react-portfolio/static/media/night-sky.2619708f.jpg",
     "static/media/responsive-pages.jpg": "/mannys-react-portfolio/static/media/responsive-pages.1c2f9d68.jpg",
     "static/media/resume-alfaro.pdf": "/mannys-react-portfolio/static/media/resume-alfaro.bece08aa.pdf",
     "static/media/resume.png": "/mannys-react-portfolio/static/media/resume.690979e4.png",
@@ -33,9 +34,9 @@
     "static/media/work-day-scheduler.png": "/mannys-react-portfolio/static/media/work-day-scheduler.7d9b9a13.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6e9e7701.js",
-    "static/js/2.f21eb31a.chunk.js",
+    "static/js/runtime-main.822cef8b.js",
+    "static/js/2.abecea52.chunk.js",
     "static/css/main.39e7c8fe.chunk.css",
-    "static/js/main.7337b21b.chunk.js"
+    "static/js/main.ce8ebfb0.chunk.js"
   ]
 }

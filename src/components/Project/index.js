@@ -4,7 +4,7 @@ import { FaGithub, } from 'react-icons/fa';
 function Project({ title, descr, image, deployedLink, repo }) {
     return (
         <wrapper>
-            <row>
+            
                 <div
                     style={{
                         width: "350px",
@@ -30,7 +30,7 @@ function Project({ title, descr, image, deployedLink, repo }) {
                     </a>
 
                 </div>
-            </row>
+            
         </wrapper>
     );
 }
