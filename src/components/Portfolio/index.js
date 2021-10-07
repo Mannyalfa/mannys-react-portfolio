@@ -60,11 +60,11 @@ function Portfolio() {
             repo: 'https://github.com/Mannyalfa/ios-style-timer',
         },
         {
-            title: 'NETGET ISP Finder',
-            descr: 'Search for internet service providers nationwide using Google APIs',
-            image: 'netget.png',
-            deployedLink: 'https://mannyalfa.github.io/netget-isp-finder/',
-            repo: 'https://github.com/Mannyalfa/netget-isp-finder',
+            title: 'Employee Tracker',
+            descr: 'A CLI application for building and maintaining an employee data base.',
+            image: 'emp-tracker.png',
+            deployedLink: 'https://drive.google.com/file/d/1bk4baqZGo7jtPnc4NYOimf1uGevT8g8d/view?usp=sharing',
+            repo: 'https://github.com/Mannyalfa/employee-tracker',
         },
         
     ];
